@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NNBdaLL9BFa1taZCOzOfuqGknWtpRjaB7apMFS3/wPGS4n7wqivjqcwKPp5cE/KyPu4jA1WOhNvP4td/BLgJiA==",
+  "dgSpecHash": "wxIrkL6x9x8D2aRysX/eR6Fv9rlbErv7aQeNIbSonSoLo6INwTgBtX5ICoslqe1+w7QyEyGHWbGYBcP4L95EnA==",
   "success": true,
   "projectFilePath": "C:\\Users\\dnvit\\Documents\\Projects\\Visual Studio 2019\\OnyceHis\\AppointmentPlanner\\AppointmentPlanner.csproj",
   "expectedPackageFiles": [
@@ -59,10 +59,10 @@
     "C:\\Users\\dnvit\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
     "C:\\Users\\dnvit\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512",
     "C:\\Users\\dnvit\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
-    "C:\\Users\\dnvit\\.nuget\\packages\\syncfusion.blazor\\18.3.0.50\\syncfusion.blazor.18.3.0.50.nupkg.sha512",
-    "C:\\Users\\dnvit\\.nuget\\packages\\syncfusion.excelexport.net.core\\18.3.0.50\\syncfusion.excelexport.net.core.18.3.0.50.nupkg.sha512",
-    "C:\\Users\\dnvit\\.nuget\\packages\\syncfusion.licensing\\18.3.0.50\\syncfusion.licensing.18.3.0.50.nupkg.sha512",
-    "C:\\Users\\dnvit\\.nuget\\packages\\syncfusion.pdfexport.net.core\\18.3.0.50\\syncfusion.pdfexport.net.core.18.3.0.50.nupkg.sha512",
+    "C:\\Users\\dnvit\\.nuget\\packages\\syncfusion.blazor\\18.3.0.53\\syncfusion.blazor.18.3.0.53.nupkg.sha512",
+    "C:\\Users\\dnvit\\.nuget\\packages\\syncfusion.excelexport.net.core\\18.3.0.53\\syncfusion.excelexport.net.core.18.3.0.53.nupkg.sha512",
+    "C:\\Users\\dnvit\\.nuget\\packages\\syncfusion.licensing\\18.3.0.53\\syncfusion.licensing.18.3.0.53.nupkg.sha512",
+    "C:\\Users\\dnvit\\.nuget\\packages\\syncfusion.pdfexport.net.core\\18.3.0.53\\syncfusion.pdfexport.net.core.18.3.0.53.nupkg.sha512",
     "C:\\Users\\dnvit\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\dnvit\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\dnvit\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
