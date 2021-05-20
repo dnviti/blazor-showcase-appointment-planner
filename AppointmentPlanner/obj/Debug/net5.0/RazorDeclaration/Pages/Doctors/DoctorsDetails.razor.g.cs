@@ -190,7 +190,7 @@ using Microsoft.AspNetCore.Components.Forms;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 150 "C:\Users\dnvit\Documents\Projects\Visual Studio 2019\OnyceHis\AppointmentPlanner\Pages\Doctors\DoctorsDetails.razor"
+#line 151 "C:\Users\dnvit\Documents\Projects\Visual Studio 2019\OnyceHis\AppointmentPlanner\Pages\Doctors\DoctorsDetails.razor"
       
 
     [Inject]
@@ -252,7 +252,7 @@ using Microsoft.AspNetCore.Components.Forms;
 
         Service.Doctors = Service.Doctors.Where(item => item.Id != activeData.Id).ToList();
         Service.Hospitals = Service.Hospitals.Where(i => i.DoctorId != activeData.Id).ToList();
-        if(Service.Doctors.Any())
+        if (Service.Doctors.Any())
         {
             this.getSpecializationText = Service.Doctors[0].Specialization;
         }
@@ -297,7 +297,7 @@ using Microsoft.AspNetCore.Components.Forms;
     public async Task UpdateEditModel(Microsoft.AspNetCore.Components.Web.MouseEventArgs args)
     {
         Doctor getHours = updateWorkHours(activeData);
-        string mobileNo = await this.maskObj.GetMaskedValue();
+        string mobileNo = this.maskObj.GetMaskedValue();
         var specialize = Service.Doctors.Where(i => i.DepartmentId == doctorEditModel.DepartmentId).FirstOrDefault().Specialization;
         activeData = new Doctor(doctorEditModel.Name, doctorEditModel.Gender, activeData.Text, activeData.Id, doctorEditModel.DepartmentId, activeData.Color, doctorEditModel.Education, specialize, doctorEditModel.Experience, doctorEditModel.Designation, doctorEditModel.DutyTiming, doctorEditModel.Email, mobileNo, activeData.Availability, getHours.StartHour, getHours.EndHour, activeData.AvailableDays, getHours.WorkDays);
         getSpecializationText = activeData.Specialization;
@@ -339,7 +339,7 @@ using Microsoft.AspNetCore.Components.Forms;
             startHour = "12:00";
             endHour = "21:00";
         }
-        for (int i=0; i< data.WorkDays.Count;i++)
+        for (int i = 0; i < data.WorkDays.Count; i++)
         {
             var item = data.WorkDays[i];
             item.WorkStartHour = ((DateTime)item.WorkStartHour).AddHours(startValue);
@@ -347,7 +347,7 @@ using Microsoft.AspNetCore.Components.Forms;
             item.BreakStartHour = item.BreakStartHour;
             item.BreakEndHour = item.BreakEndHour;
         }
-        return new Doctor { StartHour = startHour, EndHour = endHour, WorkDays=data.WorkDays };
+        return new Doctor { StartHour = startHour, EndHour = endHour, WorkDays = data.WorkDays };
     }
 
 

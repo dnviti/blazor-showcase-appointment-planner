@@ -602,7 +602,7 @@ using System.Globalization;
                 __builder2.OpenComponent<Syncfusion.Blazor.Charts.ChartSeriesCollection>(148);
                 __builder2.AddAttribute(149, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder3) => {
                     __builder3.OpenComponent<Syncfusion.Blazor.Charts.ChartSeries>(150);
-                    __builder3.AddAttribute(151, "DataSource", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.Object>(
+                    __builder3.AddAttribute(151, "DataSource", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.Collections.Generic.IEnumerable<System.Object>>(
 #nullable restore
 #line 80 "C:\Users\dnvit\Documents\Projects\Visual Studio 2019\OnyceHis\AppointmentPlanner\Pages\Dashboard\Dashboard.razor"
                                                               chartData
@@ -645,7 +645,7 @@ using System.Globalization;
                     __builder3.CloseComponent();
                     __builder3.AddMarkupContent(159, "\r\n                                    ");
                     __builder3.OpenComponent<Syncfusion.Blazor.Charts.ChartSeries>(160);
-                    __builder3.AddAttribute(161, "DataSource", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.Object>(
+                    __builder3.AddAttribute(161, "DataSource", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.Collections.Generic.IEnumerable<System.Object>>(
 #nullable restore
 #line 83 "C:\Users\dnvit\Documents\Projects\Visual Studio 2019\OnyceHis\AppointmentPlanner\Pages\Dashboard\Dashboard.razor"
                                                               chartData1
@@ -688,7 +688,7 @@ using System.Globalization;
                     __builder3.CloseComponent();
                     __builder3.AddMarkupContent(169, "\r\n                                    ");
                     __builder3.OpenComponent<Syncfusion.Blazor.Charts.ChartSeries>(170);
-                    __builder3.AddAttribute(171, "DataSource", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.Object>(
+                    __builder3.AddAttribute(171, "DataSource", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.Collections.Generic.IEnumerable<System.Object>>(
 #nullable restore
 #line 86 "C:\Users\dnvit\Documents\Projects\Visual Studio 2019\OnyceHis\AppointmentPlanner\Pages\Dashboard\Dashboard.razor"
                                                               chartData2

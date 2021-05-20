@@ -60,9 +60,169 @@
               "target": "Package",
               "version": "[5.0.6, )"
             },
-            "Syncfusion.Blazor": {
+            "Syncfusion.Blazor.BarcodeGenerator": {
               "target": "Package",
-              "version": "[18.3.0.53, )"
+              "version": "[19.1.0.64, )"
+            },
+            "Syncfusion.Blazor.BulletChart": {
+              "target": "Package",
+              "version": "[19.1.0.64, )"
+            },
+            "Syncfusion.Blazor.Buttons": {
+              "target": "Package",
+              "version": "[19.1.0.64, )"
+            },
+            "Syncfusion.Blazor.Calendars": {
+              "target": "Package",
+              "version": "[19.1.0.64, )"
+            },
+            "Syncfusion.Blazor.Cards": {
+              "target": "Package",
+              "version": "[19.1.0.64, )"
+            },
+            "Syncfusion.Blazor.Charts": {
+              "target": "Package",
+              "version": "[19.1.0.64, )"
+            },
+            "Syncfusion.Blazor.CircularGauge": {
+              "target": "Package",
+              "version": "[19.1.0.64, )"
+            },
+            "Syncfusion.Blazor.Core": {
+              "target": "Package",
+              "version": "[19.1.0.64, )"
+            },
+            "Syncfusion.Blazor.Data": {
+              "target": "Package",
+              "version": "[19.1.0.64, )"
+            },
+            "Syncfusion.Blazor.DataVizCommon": {
+              "target": "Package",
+              "version": "[19.1.0.64, )"
+            },
+            "Syncfusion.Blazor.Diagrams": {
+              "target": "Package",
+              "version": "[19.1.0.64, )"
+            },
+            "Syncfusion.Blazor.DropDowns": {
+              "target": "Package",
+              "version": "[19.1.0.64, )"
+            },
+            "Syncfusion.Blazor.FileManager": {
+              "target": "Package",
+              "version": "[19.1.0.64, )"
+            },
+            "Syncfusion.Blazor.Gantt": {
+              "target": "Package",
+              "version": "[19.1.0.64, )"
+            },
+            "Syncfusion.Blazor.Grid": {
+              "target": "Package",
+              "version": "[19.1.0.64, )"
+            },
+            "Syncfusion.Blazor.HeatMap": {
+              "target": "Package",
+              "version": "[19.1.0.64, )"
+            },
+            "Syncfusion.Blazor.InPlaceEditor": {
+              "target": "Package",
+              "version": "[19.1.0.64, )"
+            },
+            "Syncfusion.Blazor.Inputs": {
+              "target": "Package",
+              "version": "[19.1.0.64, )"
+            },
+            "Syncfusion.Blazor.Kanban": {
+              "target": "Package",
+              "version": "[19.1.0.64, )"
+            },
+            "Syncfusion.Blazor.Layouts": {
+              "target": "Package",
+              "version": "[19.1.0.64, )"
+            },
+            "Syncfusion.Blazor.LinearGauge": {
+              "target": "Package",
+              "version": "[19.1.0.64, )"
+            },
+            "Syncfusion.Blazor.Lists": {
+              "target": "Package",
+              "version": "[19.1.0.64, )"
+            },
+            "Syncfusion.Blazor.Maps": {
+              "target": "Package",
+              "version": "[19.1.0.64, )"
+            },
+            "Syncfusion.Blazor.Navigations": {
+              "target": "Package",
+              "version": "[19.1.0.64, )"
+            },
+            "Syncfusion.Blazor.Notifications": {
+              "target": "Package",
+              "version": "[19.1.0.64, )"
+            },
+            "Syncfusion.Blazor.PdfViewer": {
+              "target": "Package",
+              "version": "[19.1.0.64, )"
+            },
+            "Syncfusion.Blazor.PivotTable": {
+              "target": "Package",
+              "version": "[19.1.0.64, )"
+            },
+            "Syncfusion.Blazor.Popups": {
+              "target": "Package",
+              "version": "[19.1.0.64, )"
+            },
+            "Syncfusion.Blazor.ProgressBar": {
+              "target": "Package",
+              "version": "[19.1.0.64, )"
+            },
+            "Syncfusion.Blazor.QueryBuilder": {
+              "target": "Package",
+              "version": "[19.1.0.64, )"
+            },
+            "Syncfusion.Blazor.RangeNavigator": {
+              "target": "Package",
+              "version": "[19.1.0.64, )"
+            },
+            "Syncfusion.Blazor.RichTextEditor": {
+              "target": "Package",
+              "version": "[19.1.0.64, )"
+            },
+            "Syncfusion.Blazor.Schedule": {
+              "target": "Package",
+              "version": "[19.1.0.64, )"
+            },
+            "Syncfusion.Blazor.SmithChart": {
+              "target": "Package",
+              "version": "[19.1.0.64, )"
+            },
+            "Syncfusion.Blazor.Sparkline": {
+              "target": "Package",
+              "version": "[19.1.0.64, )"
+            },
+            "Syncfusion.Blazor.Spinner": {
+              "target": "Package",
+              "version": "[19.1.0.64, )"
+            },
+            "Syncfusion.Blazor.SplitButtons": {
+              "target": "Package",
+              "version": "[19.1.0.64, )"
+            },
+            "Syncfusion.Blazor.StockChart": {
+              "target": "Package",
+              "version": "[19.1.0.64, )"
+            },
+            "Syncfusion.Blazor.Themes": {
+              "target": "Package",
+              "version": "[19.1.0.64, )"
+            },
+            "Syncfusion.Blazor.TreeGrid": {
+              "target": "Package",
+              "version": "[19.1.0.64, )"
+            },
+            "Syncfusion.Blazor.TreeMap": {
+              "target": "Package",
+              "version": "[19.1.0.64, )"
             }
           },
           "imports": [

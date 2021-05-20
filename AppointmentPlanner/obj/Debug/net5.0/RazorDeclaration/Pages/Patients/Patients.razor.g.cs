@@ -190,7 +190,7 @@ using AppointmentPlanner.Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 180 "C:\Users\dnvit\Documents\Projects\Visual Studio 2019\OnyceHis\AppointmentPlanner\Pages\Patients\Patients.razor"
+#line 181 "C:\Users\dnvit\Documents\Projects\Visual Studio 2019\OnyceHis\AppointmentPlanner\Pages\Patients\Patients.razor"
       
     [Inject]
     protected AppointmentService Service { get; set; }
@@ -233,7 +233,7 @@ using AppointmentPlanner.Models;
     private void onAddPatient(Microsoft.AspNetCore.Components.Web.MouseEventArgs args)
     {
         saveButton = "Save";
-        patientEditModel = new Patient { Name = null, Gender = "Male", DOB= new DateTime(1996, 1, 31), BloodGroup = "B +ve", Mobile = null, Email = null, Symptoms = null };
+        patientEditModel = new Patient { Name = null, Gender = "Male", DOB = new DateTime(1996, 1, 31), BloodGroup = "B +ve", Mobile = null, Email = null, Symptoms = null };
         this.patientHeader = "New Patient";
         this.IsShowPatientEditDialog = true;
     }
@@ -246,7 +246,7 @@ using AppointmentPlanner.Models;
         Patient getRecord = null;
         string message = "";
         string name = "";
-        string mobileNo = await this.maskObj.GetMaskedValue();
+        string mobileNo = this.maskObj.GetMaskedValue();
         if (saveButton == "Save")
         {
             getRecord = new Patient(Service.Patients.LastOrDefault().Id + 1, patientEditModel.Name, patientEditModel.Name, patientEditModel.DOB, mobileNo, patientEditModel.Email, Service.Patients[0].Address, Service.Patients[0].Disease, Service.Patients[0].DepartmentName, patientEditModel.BloodGroup, patientEditModel.Gender, patientEditModel.Symptoms);
