@@ -62,7 +62,7 @@
             },
             "Syncfusion.Blazor": {
               "target": "Package",
-              "version": "[18.3.0.42, )"
+              "version": "[18.3.0.44, )"
             }
           },
           "imports": [
